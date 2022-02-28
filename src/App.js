@@ -6,7 +6,7 @@ function App() {
     return (
         <>
             <Header />
-            <main className="flex flex-col items-center gap-10">
+            <main className="flex flex-col items-center">
                 <Hero />
                 <OnlineExp />
             </main>
