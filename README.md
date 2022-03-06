@@ -21,7 +21,7 @@ This was my attempt at making an Airbnb Experiences Clone using ReactJS. My targ
 
 ### When will the project be complete?
 
-This project should be done by 1 Mar 2022.
+This project should be done by 10 Mar 2022.
 
 ### Links
 
