@@ -1,4 +1,7 @@
 import Card from "./Card";
+import img1 from "../assets/card/img1.png";
+import img2 from "../assets/card/img2.png";
+import img3 from "../assets/card/img3.png";
 
 export default function OnlineExp() {
     return (
@@ -11,11 +14,33 @@ export default function OnlineExp() {
                 hosts—all without leaving home.
             </p>
             <div className="flex flex-wrap gap-4">
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                <Card
+                    img={img1}
+                    status="SOLD OUT"
+                    rating="5.0"
+                    number="6"
+                    country="USA"
+                    title="Life lessons with Katie Zaferes"
+                    rate="136"
+                />
+                <Card
+                    img={img2}
+                    status="ONLINE"
+                    rating="5.0"
+                    number="30"
+                    country="USA"
+                    title="Learn wedding photography"
+                    rate="125"
+                />
+                <Card
+                    img={img3}
+                    status="ONLINE"
+                    rating="4.8"
+                    number="2"
+                    country="USA"
+                    title="Group Mountain Biking"
+                    rate="50"
+                />
             </div>
         </div>
     );
